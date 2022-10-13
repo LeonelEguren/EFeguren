@@ -1,0 +1,32 @@
+
+
+*{
+    margin: 0%;
+    padding: 0;
+}
+
+header{
+    background-color: rgb(126, 1, 1);
+}
+.seccion-color{
+    background-color: rgb(39, 1, 1);
+
+}
+
+aside{
+    background-color: rgb(120, 55, 55);
+}
+
+
+section div{
+    background-color: brown;
+}
+
+footer{
+    background-color: rgb(66, 18, 18);
+}
+
+ header nav{
+    background-color: brown;
+   
+}

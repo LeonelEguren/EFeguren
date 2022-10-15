@@ -219,6 +219,18 @@ main section p a:hover{
  
 }
 
+@media screen and (max-width: 1023px){
+    .productos h2{
+        font-size: 4vw;
+
+    }
+    .productos-contenedor h3{
+        font-size: 4vw;
+    }
+  
+}
+    
+
 
 .productos .productos-contenedor {
     display: flex;

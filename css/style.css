@@ -132,18 +132,34 @@ main section img{
         padding-top: 3%;
     
     }
+   h1{
+    font-size: 5vw;
+   }
 
 
 }
 
+@media screen and (max-width: 480px){
 
+    main section p{
+        font-size: 75%;
+    }
+    h1{
+      font-size: 4vw ;
+    }
+    h2{
+        font-size: 3vw;
+    }
+}
 
 main section h2{
     color: white;
     text-shadow: 0 0 5px #a92106, 0 0 30px #ff4e18, 0 0 40px #ff7418, 0 0 55px #ff1818, 0 0 75px #49ff18;
+    padding: 1%
 }
 main section p{
     color: white;
+padding-bottom: 3%;
 }
 main section p a{
     text-decoration: none;

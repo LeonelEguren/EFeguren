@@ -219,7 +219,7 @@ main section p a:hover{
     padding: 20px;
     text-align: center;
     text-shadow: 0 0 5px #741907, 0 0 30px #ff4e18, 0 0 40px #ff7418, 0 0 55px #ffff18, 0 0 75px #49ff18;
-
+   
  
 }
 
@@ -251,6 +251,10 @@ main section p a:hover{
     height: 325px;
     
     transition: 1s;
+}
+.productos .productos-contenedor div h3{
+    font-size: larger;
+    padding: 1%;
 }
 
 .productos .productos-contenedor div:hover{

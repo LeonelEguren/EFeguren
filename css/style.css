@@ -117,7 +117,7 @@ text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #a92106, 0 0 3
  }
  
  .img img:hover {
-  box-shadow: 0 0 5px #741907, 0 0 30px #ff4e18, 0 0 40px #ff7418, 0 0 55px #ffff18, 0 0 75px #49ff18;;
+  box-shadow: 0 0 5px #741907, 0 0 30px #ff4e18, 0 0 40px #ff7418, 0 0 55px #ffff18, 0 0 75px #49ff18;
  }
 footer{
     padding: 1%;
@@ -281,17 +281,19 @@ main section p a:hover{
     text-shadow: 0 0 5px #741907, 0 0 30px #ff4e18, 0 0 40px #ff7418, 0 0 55px #ffff18, 0 0 75px #49ff18;
 }
 
-.productos div img {
+.productos div a img  {
     width: 245px;
     height: 245px;
+  
 
 }
 
-.productos div a {
+
+.productos div h3 {
     text-decoration: none;
    
     color: white;
-    padding: 5px 10px 5px 10px;
+   
     transition: 1s;
   
     

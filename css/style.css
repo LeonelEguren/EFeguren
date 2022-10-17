@@ -121,7 +121,11 @@ text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #a92106, 0 0 3
  }
 footer{
     padding: 1%;
+  display: table-cell;
+ display: flex;
+align-content: center;
 }
+
 main section img{
     width: 80%;
     height: 85%;
@@ -143,7 +147,7 @@ main section img{
 
 }
 
-@media  (max-width: 480px) and(orientation: landscape) {
+@media screen and (max-width: 480px) {
 
     main section p{
         font-size: 75%;
@@ -156,6 +160,20 @@ main section img{
         font-size: 3vw;
     }
 }
+@media(orientation: landscape) {
+    main section p{
+        font-size: 70%;
+    }
+    h1{
+      font-size: 3vw ;
+      
+    }
+    h2{
+        font-size: 3vw;
+    }
+
+}
+
 
 main section h2{
     color: white;

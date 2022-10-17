@@ -21,9 +21,18 @@ section div{
     background-color: brown;
 }
 
-footer{
+footer div{
     background-color: rgb(66, 18, 18);
     transition: 1s;
+    display: flex;
+    flex-direction: row;
+    
+justify-content: flex-start;
+
+}
+
+footer div div{
+    padding: 1% ;
 }
 footer div a img:hover{
     box-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #a92106, 0 0 30px #ff4e18, 0 0 40px #ff7418, 0 0 55px #ff1818, 0 0 75px #49ff18;
@@ -186,6 +195,22 @@ main section img{
         font-size: 3vw;
     }
 
+}
+@media screen and (max-width: 480px){
+  
+    footer div{
+     
+        display: flex;
+        flex-direction: row;
+        
+    justify-content: space-around;
+    }
+    footer div div a img{
+        width: 90%;
+        height: 90%;
+        padding-top: 5%;
+
+    }
 }
 
 

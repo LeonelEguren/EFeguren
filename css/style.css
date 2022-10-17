@@ -237,21 +237,22 @@ main section p a:hover{
 
 
 
-.enlace-a-redes {
+
+    
+
+.enlace-a-redes section{
+ 
     background-image: url(../img/playing-cards-img.png);
-    width: 90%;
+    width: 100%;
     height: calc(110vh - 110px);
     background-position: center;
     background-repeat: no-repeat;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-attachment: fixed;
-
     
-}
-.enlace-a-redes section{
-    border: solid 2px black;
+
+
 }
 
 .enlace-a-redes section a  {
@@ -259,6 +260,9 @@ main section p a:hover{
     color: white;
     font-size: larger;
     transition: 1s;
+    border: solid 1px rgb(248, 242, 242);
+    background-color: black;
+    padding: 1%;
    
 }
 .enlace-a-redes section a:hover{

@@ -169,11 +169,6 @@ main section img {
     h1 {
         font-size: 4vw;
 
-
-
-
-
-
     }
 
     h2 {
@@ -204,9 +199,17 @@ main section img {
     h2 {
         font-size: 3vw;
     }
+    .hero {
+        width: 100%;
+        height: calc(90vh - 190px);
+        align-items: center;
+        align-content: center;
+        position: relative;
+
+        display: flex;
 
 }
-
+}
 @media screen and (max-width: 480px) {
 
     footer div {
@@ -265,8 +268,6 @@ main section p a:hover {
     display: flex;
     justify-content: center;
     align-items: center;
-
-
 
 }
 

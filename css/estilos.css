@@ -1,3 +1,6 @@
+@import url(../base/_media-querys.scss);
+@import url(../base/_media-querys.scss);
+@import url(../base/_media-querys.scss);
 .container-fluid {
   background-color: #232323; }
   .container-fluid .dropdown-menu {

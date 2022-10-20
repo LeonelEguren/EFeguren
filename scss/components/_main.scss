@@ -1,0 +1,87 @@
+main section {
+
+    img {
+        width: 80%;
+        height: 85%;
+        padding-top: 3%;
+
+    }
+    h2 {
+        color: white;
+        text-shadow: 0 0 5px #a92106, 0 0 30px #ff4e18, 0 0 40px #ff7418, 0 0 55px #ff1818, 0 0 75px #49ff18;
+        padding: 1%
+    }
+    p {
+        color: white;
+        padding-bottom: 3%;
+        a {
+            text-decoration: none;
+            transition: 1s;
+            color: white;
+            &:hover {
+                color: white;
+                text-shadow: 0 0 5px #741907, 0 0 30px #ff4e18, 0 0 40px #ff7418, 0 0 55px #ffff18, 0 0 75px #49ff18;
+            
+            }
+        
+        }
+    }
+    
+}
+
+.hero {
+    background-color: rgb(7, 6, 6);
+    background-image: url(../img/pexels-maria-orlova-4917174.jpg);
+    width: 100%;
+    height: calc(90vh - 110px);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    h1 {
+        color: rgb(95, 4, 4);
+        font-size: 3rem;
+        font-weight: bold;
+        left: 10%;
+        position: absolute;
+        text-align: center;
+        top: 40%;
+        width: 80%;
+        border: 2px;
+        padding: 2px;
+        background-color: black;
+        letter-spacing: 5px;
+        border: solid 5px rgb(56, 1, 1);
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #a92106, 0 0 30px #ff4e18, 0 0 40px #ff7418, 0 0 55px #ff1818, 0 0 75px #49ff18;
+
+
+
+    }
+
+}
+
+
+.img {
+    border: solid 2px black;
+    background-color: rgb(68, 9, 9);
+
+    color: white;
+    padding: 3%;
+    a {
+        text-decoration: none;
+        color: white;
+    
+    }
+    img {
+        transition: 1s;
+       &:hover {
+            box-shadow: 0 0 5px #741907, 0 0 30px #ff4e18, 0 0 40px #ff7418, 0 0 55px #ffff18, 0 0 75px #49ff18;
+        }
+    }
+
+}

@@ -1,3 +1,5 @@
+@import "./base/variables";
+
 main section {
 
     img {
@@ -9,7 +11,7 @@ main section {
 
     h2 {
         color: white;
-        text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #a92106, 0 0 30px #ff4e18, 0 0 40px #ff7418, 0 0 55px #ff1818, 0 0 75px #49ff18;
+        text-shadow: $shadow;
         padding: 1%
     }
 
@@ -24,7 +26,7 @@ main section {
 
             &:hover {
                 color: white;
-                text-shadow:0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #a92106, 0 0 30px #ff4e18, 0 0 40px #ff7418, 0 0 55px #ff1818, 0 0 75px #49ff18;
+                text-shadow:$shadow;
             }
 
         }
@@ -60,7 +62,7 @@ main section {
         letter-spacing: 5px;
         border: solid 5px rgb(56, 1, 1);
         font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-        text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #a92106, 0 0 30px #ff4e18, 0 0 40px #ff7418, 0 0 55px #ff1818, 0 0 75px #49ff18;
+        text-shadow: $shadow;
 
 
     }
@@ -94,7 +96,7 @@ main section {
         transition: 1s;
 
         &:hover {
-            box-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #a92106, 0 0 30px #ff4e18, 0 0 40px #ff7418, 0 0 55px #ff1818, 0 0 75px #49ff18;
+            box-shadow: $shadow;
         }
 
     }
@@ -137,7 +139,7 @@ main section {
 
 .enlace-a-redes  a:hover {
     color: white;
-    text-shadow: 0 0 5px #741907, 0 0 30px #ff4e18, 0 0 40px #ff7418, 0 0 55px #ffff18, 0 0 75px #49ff18;
+    text-shadow: $shadow;
 
 }
 
@@ -149,8 +151,7 @@ main section {
         color: white;
         padding: 20px;
         text-align: center;
-        text-shadow: 0 0 5px #741907, 0 0 30px #ff4e18, 0 0 40px #ff7418, 0 0 55px #ffff18, 0 0 75px #49ff18;
-    
+        text-shadow: $shadow;
     
     }
     .productos-contenedor {
@@ -169,13 +170,14 @@ main section {
             height: 325px;
             transition: 1s;
 
-            &hover {
-
-                text-shadow: 0 0 5px #741907, 0 0 30px #ff4e18, 0 0 40px #ff7418, 0 0 55px #ffff18, 0 0 75px #49ff18;
-            }
+          
             a img {
                 width: 245px;
                 height: 245px;
+                & :hover {
+
+                    text-shadow: $shadow;
+                }
             
             
             }

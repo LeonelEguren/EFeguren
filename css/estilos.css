@@ -139,6 +139,25 @@ main section p {
   display: flex;
   flex-wrap: wrap;
   justify-content: center; }
+  .principal .arena {
+    background-image: url(../img/playing-cards-img.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+    color: white;
+    padding: 10px;
+    background-color: black;
+    margin-left: 20%;
+    margin-right: 20%;
+    font-size: 25px; }
+    .principal .arena h3 {
+      color: black;
+      text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #a92106, 0 0 30px #ff4e18, 0 0 40px #ff7418, 0 0 55px #ff1818, 0 0 75px #49ff18; }
+    .principal .arena p a {
+      color: white;
+      text-decoration: none; }
   .principal .nosotros {
     background-image: url(../img/playing-cards-img.png);
     background-position: center;
@@ -182,6 +201,13 @@ footer {
 @media screen and (max-width: 480px) {
   main section p {
     font-size: 75%; }
+  .mapa iframe {
+    width: 100%;
+    height: calc(90vh - 100px);
+    align-items: center;
+    align-content: center;
+    position: relative;
+    display: flex; }
   .hero {
     width: 100%;
     height: calc(90vh - 190px);

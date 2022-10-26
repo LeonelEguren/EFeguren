@@ -33,7 +33,15 @@
     }
 
   
+.mapa iframe {
+    width: 100%;
+    height: calc(90vh - 100px);
+    align-items: center;
+    align-content: center;
+    position: relative;
 
+    display: flex;
+}
   
 
     .hero {

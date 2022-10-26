@@ -204,6 +204,28 @@ main section {
     display:flex;
     flex-wrap: wrap;
     justify-content: center;
+    .arena {
+        background-image: url(../img/playing-cards-img.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        text-align: center;
+        color: white;
+        padding: 10px;
+        background-color: black;
+        margin-left: 20%;
+        margin-right: 20%;
+        font-size: 25px;
+        h3{
+            color: black;
+            text-shadow: $shadow;
+        }
+        p a {
+            color: white;
+            text-decoration: none;
+        }
+    }
     .nosotros {
         background-image: url(../img/playing-cards-img.png);
         background-position: center;

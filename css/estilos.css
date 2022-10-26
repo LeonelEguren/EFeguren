@@ -138,7 +138,7 @@ main section p {
   background-color: #241818;
   display: flex;
   flex-wrap: wrap;
-  justify-content: flex-end; }
+  justify-content: center; }
   .principal .nosotros {
     background-image: url(../img/playing-cards-img.png);
     background-position: center;

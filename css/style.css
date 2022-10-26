@@ -257,7 +257,14 @@ main section p a:hover {
 
 
 
+.enlace-a-redes {
+    text-align: center;
 
+    display: inline;
+    padding: 10px;
+
+    font-size: 25px;
+}
 
 .enlace-a-redes section {
 
@@ -272,35 +279,9 @@ main section p a:hover {
 
 }
 
-/*
-.enlace-a-redes section a  {
-    text-decoration: none;
-    color: white;
-    font-size: larger;
-    transition: 1s;
-    border: solid 1px rgb(248, 242, 242);
-    background-color: black;
-    padding: 1%;
-   
-} 
-
-@media screen and (max-width: 480px) {
-    .enlace-a-redes section{
-        width: 90%  
-    }
 
 
-}*/
 
-
-.enlace-a-redes {
-    text-align: center;
-
-    display: inline;
-    padding: 10px;
-
-    font-size: 25px;
-}
 
 .enlace-a-redes a {
     text-decoration: none;
@@ -309,7 +290,7 @@ main section p a:hover {
 }
 
 
-.enlace-a-redes section a:hover {
+.enlace-a-redes  a:hover {
     color: white;
     text-shadow: 0 0 5px #741907, 0 0 30px #ff4e18, 0 0 40px #ff7418, 0 0 55px #ffff18, 0 0 75px #49ff18;
 

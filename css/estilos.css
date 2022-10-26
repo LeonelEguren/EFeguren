@@ -1,6 +1,4 @@
 @import url(../base/_media-querys.scss);
-@import url(../base/_media-querys.scss);
-@import url(../base/_media-querys.scss);
 .container-fluid {
   background-color: #232323; }
   .container-fluid .dropdown-menu {
@@ -18,7 +16,7 @@ main section img {
 
 main section h2 {
   color: white;
-  text-shadow: 0 0 5px #a92106, 0 0 30px #ff4e18, 0 0 40px #ff7418, 0 0 55px #ff1818, 0 0 75px #49ff18;
+  text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #a92106, 0 0 30px #ff4e18, 0 0 40px #ff7418, 0 0 55px #ff1818, 0 0 75px #49ff18;
   padding: 1%; }
 
 main section p {
@@ -30,7 +28,7 @@ main section p {
     color: white; }
     main section p a:hover {
       color: white;
-      text-shadow: 0 0 5px #741907, 0 0 30px #ff4e18, 0 0 40px #ff7418, 0 0 55px #ffff18, 0 0 75px #49ff18; }
+      text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #a92106, 0 0 30px #ff4e18, 0 0 40px #ff7418, 0 0 55px #ff1818, 0 0 75px #49ff18; }
 
 .hero {
   background-color: #070606;
@@ -61,6 +59,11 @@ main section p {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #a92106, 0 0 30px #ff4e18, 0 0 40px #ff7418, 0 0 55px #ff1818, 0 0 75px #49ff18; }
 
+#imagenes {
+  padding: 3%; }
+  #imagenes div {
+    background-color: #232323; }
+
 .img {
   border: solid 2px black;
   background-color: #440909;
@@ -72,7 +75,87 @@ main section p {
   .img img {
     transition: 1s; }
     .img img:hover {
-      box-shadow: 0 0 5px #741907, 0 0 30px #ff4e18, 0 0 40px #ff7418, 0 0 55px #ffff18, 0 0 75px #49ff18; }
+      box-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #a92106, 0 0 30px #ff4e18, 0 0 40px #ff7418, 0 0 55px #ff1818, 0 0 75px #49ff18; }
+
+.enlace-a-redes {
+  text-align: center;
+  display: inline;
+  padding: 10px;
+  font-size: 25px; }
+  .enlace-a-redes section {
+    background-image: url(../img/playing-cards-img.png);
+    width: 100%;
+    height: calc(110vh - 110px);
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+
+.enlace-a-redes a {
+  text-decoration: none;
+  color: white;
+  border: solid 1px; }
+
+.enlace-a-redes a:hover {
+  color: white;
+  text-shadow: 0 0 5px #741907, 0 0 30px #ff4e18, 0 0 40px #ff7418, 0 0 55px #ffff18, 0 0 75px #49ff18; }
+
+.productos {
+  padding: 0%; }
+  .productos h2 {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-shadow: 0 0 5px #741907, 0 0 30px #ff4e18, 0 0 40px #ff7418, 0 0 55px #ffff18, 0 0 75px #49ff18; }
+  .productos .productos-contenedor {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap; }
+    .productos .productos-contenedor div {
+      border: solid 2px black;
+      background-color: #232323;
+      margin: 2%;
+      text-align: center;
+      width: 250px;
+      height: 325px;
+      transition: 1s; }
+      .productos .productos-contenedor divhover {
+        text-shadow: 0 0 5px #741907, 0 0 30px #ff4e18, 0 0 40px #ff7418, 0 0 55px #ffff18, 0 0 75px #49ff18; }
+      .productos .productos-contenedor div a img {
+        width: 245px;
+        height: 245px; }
+      .productos .productos-contenedor div h3 {
+        font-size: larger;
+        padding: 1%;
+        text-decoration: none;
+        color: white;
+        transition: 1s; }
+
+.principal {
+  padding: 5%;
+  background-color: #241818;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end; }
+  .principal .nosotros {
+    background-image: url(../img/playing-cards-img.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+    border: solid 2px #380101;
+    color: white;
+    padding: 5%;
+    background-color: black;
+    margin-left: 5%;
+    margin-right: 5%;
+    font-size: 25px; }
+  .principal .mapa iframe {
+    padding: 4%; }
 
 footer {
   padding: 1%; }
@@ -100,10 +183,6 @@ footer {
 @media screen and (max-width: 480px) {
   main section p {
     font-size: 75%; }
-  h1 {
-    font-size: 4vw; }
-  h2 {
-    font-size: 3vw; }
   .hero {
     width: 100%;
     height: calc(90vh - 190px);
@@ -111,6 +190,10 @@ footer {
     align-content: center;
     position: relative;
     display: flex; }
+    .hero h1 {
+      font-size: 4vw; }
+    .hero h2 {
+      font-size: 3vw; }
   footer div {
     display: flex;
     flex-direction: row;
@@ -133,4 +216,8 @@ footer {
     align-items: center;
     align-content: center;
     position: relative;
-    display: flex; } }
+    display: flex; }
+    .hero h1 {
+      font-size: 3vw; }
+    .hero h2 {
+      font-size: 3vw; } }

@@ -26,19 +26,15 @@
 
 
 @media screen and (max-width: 480px) {
+ 
 
     main section p {
         font-size: 75%;
     }
 
-    h1 {
-        font-size: 4vw;
+  
 
-    }
-
-    h2 {
-        font-size: 3vw;
-    }
+  
 
     .hero {
         width: 100%;
@@ -48,6 +44,13 @@
         position: relative;
 
         display: flex;
+        h1 {
+            font-size: 4vw;
+    
+        }
+        h2 {
+            font-size: 3vw;
+        }
     }
 
     footer div {
@@ -90,6 +93,14 @@
         position: relative;
 
         display: flex;
+        h1 {
+            font-size: 3vw;
+    
+        }
+        h2 {
+            font-size: 3vw;
+        }
+    
 
     }
 }

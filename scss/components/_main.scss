@@ -110,6 +110,7 @@ main section {
     padding: 10px;
 
     font-size: 25px;
+    
     section {
 
         background-image: url(../img/playing-cards-img.png);
@@ -120,8 +121,21 @@ main section {
         display: flex;
         justify-content: center;
         align-items: center;
+        a {
+            text-decoration: none;
+            color:$colorfuente;
+            border: solid 1px ;
+            transition: 1s;
+            padding: 5px;
+              &:hover {
+               
+                text-shadow: $shadow;
+            
+            }
+        }
     
     }
+
 }
 
  
@@ -130,16 +144,6 @@ main section {
 
 
 
-.enlace-a-redes a {
-    text-decoration: none;
-    color:$colorfuente;
-    border: solid 1px;
-      & :hover {
-        color: $colorfuente;
-        text-shadow: $shadow;
-    
-    }
-}
 
 
 

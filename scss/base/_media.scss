@@ -31,11 +31,13 @@
     main section p {
         font-size: 75%;
     }
-
+.nosotros p {
+    font-size: 4vw;
+}
   
 .mapa iframe {
     width: 100%;
-    height: calc(90vh - 100px);
+    height: calc(50vh - 90px);
     align-items: center;
     align-content: center;
     position: relative;

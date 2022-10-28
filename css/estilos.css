@@ -90,14 +90,14 @@ main section p {
     display: flex;
     justify-content: center;
     align-items: center; }
-
-.enlace-a-redes a {
-  text-decoration: none;
-  color: #f8f2f2;
-  border: solid 1px; }
-  .enlace-a-redes a :hover {
-    color: #f8f2f2;
-    text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #a92106, 0 0 30px #ff4e18, 0 0 40px #ff7418, 0 0 55px #ff1818, 0 0 75px #49ff18; }
+    .enlace-a-redes section a {
+      text-decoration: none;
+      color: #f8f2f2;
+      border: solid 1px;
+      transition: 1s;
+      padding: 5px; }
+      .enlace-a-redes section a:hover {
+        text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #a92106, 0 0 30px #ff4e18, 0 0 40px #ff7418, 0 0 55px #ff1818, 0 0 75px #49ff18; }
 
 .productos {
   padding: 0%; }
@@ -202,9 +202,11 @@ footer {
 @media screen and (max-width: 480px) {
   main section p {
     font-size: 75%; }
+  .nosotros p {
+    font-size: 4vw; }
   .mapa iframe {
     width: 100%;
-    height: calc(90vh - 100px);
+    height: calc(50vh - 90px);
     align-items: center;
     align-content: center;
     position: relative;

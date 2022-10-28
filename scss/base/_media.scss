@@ -26,34 +26,41 @@
 
 
 @media screen and (max-width: 480px) {
- 
+
 
     main section p {
         font-size: 75%;
     }
-.nosotros p {
-    font-size: 4vw;
 
-}
-.arena {
-    h3{
+    .enlace-a-redes section a {
         font-size: 5vw;
     }
-p {
-    font-size: 4vw;
-}
-}
-  
-.mapa iframe {
-    width: 100%;
-    height: calc(50vh - 90px);
-    align-items: center;
-    align-content: center;
-    position: relative;
 
-    display: flex;
-}
-  
+    .nosotros p {
+        font-size: 4vw;
+
+    }
+
+    .arena {
+        h3 {
+            font-size: 5vw;
+        }
+
+        p {
+            font-size: 4vw;
+        }
+    }
+
+    .mapa iframe {
+        width: 100%;
+        height: calc(50vh - 90px);
+        align-items: center;
+        align-content: center;
+        position: relative;
+
+        display: flex;
+    }
+
 
     .hero {
         width: 100%;
@@ -63,10 +70,12 @@ p {
         position: relative;
 
         display: flex;
+
         h1 {
             font-size: 4vw;
-    
+
         }
+
         h2 {
             font-size: 3vw;
         }
@@ -112,14 +121,16 @@ p {
         position: relative;
 
         display: flex;
+
         h1 {
             font-size: 3vw;
-    
+
         }
+
         h2 {
             font-size: 3vw;
         }
-    
+
 
     }
 }

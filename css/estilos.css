@@ -202,6 +202,8 @@ footer {
 @media screen and (max-width: 480px) {
   main section p {
     font-size: 75%; }
+  .enlace-a-redes section a {
+    font-size: 5vw; }
   .nosotros p {
     font-size: 4vw; }
   .arena h3 {

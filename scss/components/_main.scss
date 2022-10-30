@@ -10,7 +10,7 @@ main section {
     }
 
     h2 {
-        color:$colorfuentesub;
+        color: $colorfuentesub;
         text-shadow: $shadow;
         padding: 1%
     }
@@ -22,11 +22,11 @@ main section {
         a {
             text-decoration: none;
             transition: 1s;
-            color:$colorfuente;
+            color: $colorfuente;
 
             &:hover {
                 color: $colorfuente;
-                text-shadow:$shadow;
+                text-shadow: $shadow;
             }
 
         }
@@ -110,7 +110,7 @@ main section {
     padding: 10px;
 
     font-size: 25px;
-    
+
     section {
 
         background-image: url(../img/playing-cards-img.png);
@@ -121,24 +121,26 @@ main section {
         display: flex;
         justify-content: center;
         align-items: center;
+
         a {
             text-decoration: none;
-            color:$colorfuente;
-            border: solid 1px ;
+            color: $colorfuente;
+            border: solid 1px;
             transition: 1s;
             padding: 5px;
-              &:hover {
-               
+
+            &:hover {
+
                 text-shadow: $shadow;
-            
+
             }
         }
-    
+
     }
 
 }
 
- 
+
 
 
 
@@ -150,55 +152,60 @@ main section {
 
 .productos {
     padding: 0%;
+
     h2 {
         background-color: black;
-        color:$colorfuentesub;
+        color: $colorfuentesub;
         padding: 20px;
         text-align: center;
         text-shadow: $shadow;
-    
+
     }
+
     .productos-contenedor {
         display: flex;
         justify-content: space-around;
         align-items: center;
         flex-wrap: wrap;
+
         div {
             border: solid 2px black;
             background-color: #232323;
             margin: 2%;
-        
+
             text-align: center;
-        
+
             width: 250px;
             height: 325px;
             transition: 1s;
+
             & :hover {
 
                 text-shadow: $shadow;
             }
 
-          
+
             a img {
                 width: 245px;
                 height: 245px;
-               
-            
+
+
             }
+
             h3 {
                 font-size: larger;
                 padding: 1%;
                 text-decoration: none;
 
                 color: $colorfuente;
-            
-              
-            
-            
-                
+
+
+
+
+
             }
-          
-            
+
+
         }
     }
 }
@@ -206,9 +213,10 @@ main section {
 .principal {
     padding: 5%;
     background-color: rgb(36, 24, 24);
-    display:flex;
+    display: flex;
     flex-wrap: wrap;
     justify-content: center;
+
     .arena {
         background-image: url(../img/playing-cards-img.png);
         background-position: center;
@@ -222,15 +230,18 @@ main section {
         margin-left: 20%;
         margin-right: 20%;
         font-size: 25px;
-        h3{
+
+        h3 {
             color: $colorfuentesub;
             text-shadow: $shadow;
         }
+
         p a {
-            color:$colorfuente;
+            color: $colorfuente;
             text-decoration: none;
         }
     }
+
     .nosotros {
         background-image: url(../img/playing-cards-img.png);
         background-position: center;
@@ -239,7 +250,7 @@ main section {
         background-attachment: fixed;
         text-align: center;
         border: solid 2px rgb(56, 1, 1);
-    
+
         color: $colorfuente;
         padding: 5%;
         background-color: black;
@@ -247,16 +258,18 @@ main section {
         margin-right: 5%;
         font-size: 25px;
     }
-    h2{
+
+    h2 {
         color: $colorfuentesub;
         text-shadow: $shadow;
     }
+
     .mapa iframe {
         padding: 4%;
-        
-        
-        
-     
+
+
+
+
     }
 
 

@@ -170,14 +170,12 @@ main section {
 
         div {
             border: solid 2px black;
-            background-color: #232323;
+            background-color: #000000;
             margin: 2%;
-
-            text-align: center;
-
-            width: 250px;
-            height: 325px;
+             width: 250px;
+            height: 310px;
             transition: 1s;
+          text-align: center;
 
             & :hover {
 
@@ -193,8 +191,10 @@ main section {
             }
 
             h3 {
-                font-size: larger;
-                padding: 1%;
+                font-size: large;
+                padding-top: 7%;
+               padding-left: 1%;
+               padding-right: 1%;
                 text-decoration: none;
 
                 color: $colorfuente;

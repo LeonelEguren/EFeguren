@@ -114,20 +114,22 @@ main section p {
     flex-wrap: wrap; }
     .productos .productos-contenedor div {
       border: solid 2px black;
-      background-color: #232323;
+      background-color: #000000;
       margin: 2%;
-      text-align: center;
       width: 250px;
-      height: 325px;
-      transition: 1s; }
+      height: 310px;
+      transition: 1s;
+      text-align: center; }
       .productos .productos-contenedor div :hover {
         text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #a92106, 0 0 30px #ff4e18, 0 0 40px #ff7418, 0 0 55px #ff1818, 0 0 75px #49ff18; }
       .productos .productos-contenedor div a img {
         width: 245px;
         height: 245px; }
       .productos .productos-contenedor div h3 {
-        font-size: larger;
-        padding: 1%;
+        font-size: large;
+        padding-top: 7%;
+        padding-left: 1%;
+        padding-right: 1%;
         text-decoration: none;
         color: #f8f2f2; }
 

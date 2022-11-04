@@ -89,7 +89,8 @@ main section p {
     background-repeat: no-repeat;
     display: flex;
     justify-content: center;
-    align-items: center; }
+    align-items: center;
+    background-color: black; }
     .enlace-a-redes section a {
       text-decoration: none;
       color: #f8f2f2;
@@ -106,7 +107,8 @@ main section p {
     color: #0b0101;
     padding: 20px;
     text-align: center;
-    text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #a92106, 0 0 30px #ff4e18, 0 0 40px #ff7418, 0 0 55px #ff1818, 0 0 75px #49ff18; }
+    text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #a92106, 0 0 30px #ff4e18, 0 0 40px #ff7418, 0 0 55px #ff1818, 0 0 75px #49ff18;
+    font-size: 2vw; }
   .productos .productos-contenedor {
     display: flex;
     justify-content: space-around;
@@ -203,6 +205,10 @@ footer {
     font-size: 4vw; } }
 
 @media screen and (max-width: 480px) {
+  .img {
+    margin: 2%; }
+    .img p {
+      padding-top: 5%; }
   main section p {
     font-size: 75%; }
   .enlace-a-redes section a {

@@ -71,6 +71,8 @@ main section p {
   .img a {
     text-decoration: none;
     color: #f8f2f2; }
+  .img p {
+    padding-top: 3%; }
   .img img {
     transition: 1s; }
     .img img:hover {
@@ -89,14 +91,14 @@ main section p {
     background-repeat: no-repeat;
     display: flex;
     justify-content: center;
-    align-items: center;
-    background-color: black; }
+    align-items: center; }
     .enlace-a-redes section a {
       text-decoration: none;
       color: #f8f2f2;
       border: solid 1px;
       transition: 1s;
-      padding: 5px; }
+      padding: 5px;
+      background-color: black; }
       .enlace-a-redes section a:hover {
         text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #a92106, 0 0 30px #ff4e18, 0 0 40px #ff7418, 0 0 55px #ff1818, 0 0 75px #49ff18; }
 

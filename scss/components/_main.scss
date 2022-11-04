@@ -91,6 +91,9 @@ main section {
         color: $colorfuente;
 
     }
+    p{
+        padding-top: 3%;
+    }
 
     img {
         transition: 1s;
@@ -110,6 +113,7 @@ main section {
     padding: 10px;
 
     font-size: 25px;
+   
 
     section {
 
@@ -121,7 +125,7 @@ main section {
         display: flex;
         justify-content: center;
         align-items: center;
-        background-color:black;
+       
 
         a {
             text-decoration: none;
@@ -129,6 +133,7 @@ main section {
             border: solid 1px;
             transition: 1s;
             padding: 5px;
+            background-color:black;
             
 
             &:hover {
